@@ -1,0 +1,109 @@
+/* * {
+  border: 2px dotted red;
+} */
+
+body {
+  margin: 0;
+  background: white;
+}
+
+p {
+  font-size: 28px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.nav-row {
+  justify-content: right;
+  align-items: flex-end;
+  display: flex;
+}
+
+header {
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+  border-bottom: 5px solid orange;
+  background-image: url(/assets/oranges.jpg);
+  background-size: cover;
+}
+
+header h1 {
+  color: black;
+  padding-top: 36px;
+  padding: 10px;
+  border-radius: 12px;
+  font-size: 56px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+header nav li {
+  list-style-type: none;
+  padding-top: 36px;
+  display: inline-block;
+  text-transform: uppercase;
+}
+
+header nav li a {
+  text-decoration: none;
+  margin: 5px;
+  font-size: 1.83rem;
+  font-family: "Courier New", Courier, monospace;
+  color: black;
+  font-weight: 900;
+}
+
+section img {
+  height: 50%;
+  width: 30%;
+}
+
+.quote {
+  color: black;
+  text-align: center;
+}
+
+main {
+  width: 90%;
+  margin: 20px auto;
+}
+
+section {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin: 10px auto;
+}
+
+h2 {
+  font-size: 42px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.col1 {
+  width: 15%;
+  border-right: 5px solid rgb(248, 143, 5);
+  text-align: right;
+  padding-right: 10px;
+}
+
+.col2 {
+  width: 75%;
+}
+
+.col2 li {
+  display: inline-block;
+}
+
+.col2 a {
+  text-decoration: none;
+  margin-right: 165px;
+  font-size: 1.83rem;
+  color: orange;
+  font-weight: 900;
+  font-family: "Courier New", Courier, monospace;
+}
+
+footer {
+  font-size: 20px;
+  text-align: right;
+}
