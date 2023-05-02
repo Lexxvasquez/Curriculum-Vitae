@@ -21,6 +21,6 @@ used google for questions on how to.
 
 ## Links
 
-<a href="https://www.w3schools.com/default.asp"target="_blank">W3 School</a>
+<a href="https://www.w3schools.com/default.asp"target="_blank"> W3 School</a>
 
-<a href="https://www.pexels.com/"target="_blank">pexels website</a>
+<a href="https://www.pexels.com/"target="_blank"> pexels website</a>

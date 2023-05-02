@@ -4,7 +4,7 @@
 
 body {
   margin: 0;
-  background: white;
+  background: rgb(245, 172, 103);
 }
 
 p {
@@ -22,7 +22,7 @@ header {
   align-items: center;
   justify-content: space-between;
   padding: 0 10px;
-  border-bottom: 5px solid orange;
+  border-bottom: 5px solid rgb(241, 240, 238);
   background-image: url(/assets/oranges.jpg);
   background-size: cover;
 }
@@ -81,7 +81,7 @@ h2 {
 
 .col1 {
   width: 15%;
-  border-right: 5px solid rgb(248, 143, 5);
+  border-right: 5px solid rgb(227, 230, 227);
   text-align: right;
   padding-right: 10px;
 }
@@ -98,7 +98,7 @@ h2 {
   text-decoration: none;
   margin-right: 165px;
   font-size: 1.83rem;
-  color: orange;
+  color: rgb(20, 17, 17);
   font-weight: 900;
   font-family: "Courier New", Courier, monospace;
 }
