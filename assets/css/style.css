@@ -71,9 +71,27 @@ main {
 
 section {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   padding: 10px;
   margin: 10px auto;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  margin: 10px auto;
+}
+
+#firstImg {
+  width: 70%
+}
+
+#secondImg {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 25%;
+  margin: 10px;
 }
 
 h2 {
