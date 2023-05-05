@@ -3,7 +3,7 @@
 } */
 
 body {
-  margin: 0;
+  margin: 0%;
   background: rgb(245, 172, 103);
 }
 
@@ -23,8 +23,6 @@ header {
   justify-content: space-between;
   padding: 0 10px;
   border-bottom: 5px solid rgb(241, 240, 238);
-  background-image: url(/assets/oranges.jpg);
-  background-size: cover;
 }
 
 header h1 {
@@ -41,6 +39,10 @@ header nav li {
   padding-top: 36px;
   display: inline-block;
   text-transform: uppercase;
+}
+
+img {
+  width: 20%;
 }
 
 header nav li a {
@@ -76,10 +78,20 @@ section {
 
 h2 {
   font-size: 42px;
+  display: flex;
   font-family: "Courier New", Courier, monospace;
 }
 
+.column {
+ display: flex;
+ justify-content: flex-end;
+ margin: 10px;
+ padding: 20px;
+}
+
 .col1 {
+  display: flex;
+  justify-content: right;
   width: 15%;
   border-right: 5px solid rgb(227, 230, 227);
   text-align: right;
